@@ -11,7 +11,7 @@ function downloadCV() {
         document.body.appendChild(a);
         a.click();
         window.URL.revokeObjectURL(url);
-        alert('your file has downloaded!'); // or you know, something with better UX...
+        alert('cv file has downloaded!'); // or you know, something with better UX...
       })
       .catch((er) => alert(er));
 }
