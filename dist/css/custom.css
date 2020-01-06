@@ -1,1 +1,13 @@
 /* your styles go here */
+.getCV {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px 50px;
+    display: none;
+}
+
+.getCV:hover{
+    text-decoration: unset;
+    color: white;
+    background: linear-gradient(to bottom, #4fbfa8, #74cdba) !important;
+}
